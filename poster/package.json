@@ -1,0 +1,15 @@
+{
+  "name": "gakuensai-poster",
+  "private": true,
+  "description": "学園祭ブース用ポスター生成（SVG → PNG / PDF）",
+  "scripts": { "build": "node build-poster.cjs" },
+  "dependencies": {
+    "@expo-google-fonts/inter": "*",
+    "@expo-google-fonts/noto-sans-devanagari": "*",
+    "@expo-google-fonts/noto-sans-jp": "*",
+    "@expo-google-fonts/noto-sans-myanmar": "*",
+    "@resvg/resvg-js": "*",
+    "pdfkit": "*",
+    "qrcode": "*"
+  }
+}
